@@ -4,14 +4,14 @@ from Block import Blockchain
 from BlockFun import *
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="Block Chain", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Block Chain", page_icon=":moneybag:", layout="wide")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.title("Hi, Welcome to our Blockchain :wave:")
-    st.subheader("we are Computer Engineering Students @ Arab Academy for Science and technology")
+    st.title("Hi, Welcome to our Blockchain :link:")
+    st.subheader("This project simulates a blockchain system, in which mine new blocks, proof of work, and view the entire chain. \n [GitHub Repo](https://github.com/Abdelrahman-Hanafy/BlockchainDemo)")
     st.write(
-        "We are doing this website as a project @ Data security course"
+        "We are doing this website as a project for Data security course"
     )
 
 
